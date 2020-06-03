@@ -5,22 +5,19 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/jpg" href="house.jpg">
+    <meta name="viewport" content="width=1125e, initial-scale=1">
 </head>
 <body>
-<script>
-var buzz = new Audio();
-buzz.src = "buzz.mp3";
-</script>
 <header>
     <a href="index.html"><img class="logo" src="images/logo.jpeg" alt="logo"></a>
     <nav>
         <ul class="nav__links">
             <li><a href="apropos.html">A propos</a></li>
-            <li><a href="reas.html">Réalisations</a></li>
+            <li><a href="réas.html">Réalisations</a></li>
             <li><a href="services.html">Services</a></li>
         </ul>
     </nav>
-    <a href="#contact" class="cta" onmousedown="buzz.play() "><button>Contact</button></a>
+    <a href="#contact" class="cta"><button>Contact</button></a>
 </header>
 
 <!-- la section accueil, c'est pour le 'A propos' mais j'ai la flemme de tout changer... -->
@@ -28,12 +25,12 @@ buzz.src = "buzz.mp3";
 <section id="accueil">
     <div class="bloc-images">
         <a href="apropos.html"><img src="images/maison.jpg"></a>
-        <a href=""><img src="images/exterior.jpg"></a>
+        <a href="réas.html"><img src="images/exterior.jpg"></a>
         <a href=""><img src="images/contact.jpg"></a>
     </div>
     <div class="bloc-names">
         <a href="apropos.html">A propos</a>
-        <a href="#creations">Réalisations</a>
+        <a href="réas.html">Réalisations</a>
         <a href="#services">Services</a>
     </div>
 </section>
@@ -80,7 +77,7 @@ buzz.src = "buzz.mp3";
                     <p>David Piquet Architecte à réalisé de nombreux travaux dans differentes aires. Accedez à 
                         notre Portfolio (portefeuille de compétences) pour en savoir d'avantage.</p>
                 </div>
-                <a href="reas.html">Voir plus</a>
+                <a href="réas.html">Voir plus</a>
             </div>
             <div class="bloc-presentation-images">
                 <img src ="images/maison.jpg">
@@ -104,32 +101,34 @@ buzz.src = "buzz.mp3";
             </div>
         </div>
     </div>
-
 </section>
 
 <section id="morale">
-    <p><b>David Piquet Architecte est situé à Limoges</b>
-        <span class="italique">Nous sommes au service des particuliers tout comme des professionnels.</span><br>
-    <span class="italique">Nous vous accompagnons dans votre projet de <b>construction</b>, de <b>rénovations</b>
-    , <b>aménagement</b> de votre <b>intérieur</b> ou bien <b>rénovation</b>. Maisons individuelles, agrandissements,
-    logements collectifs, bâtiments industriels et zone commerciales font partie de nos services. Découvrez-les
-    sur notre site.</span></p>
+    <div class="morale">
+        <p><b>David Piquet Architecte est situé à Limoges</b>
+            <span class="italique">Nous sommes au service des particuliers tout comme des professionnels.</span><br>
+        <span class="italique">Nous vous accompagnons dans votre projet de <b>construction</b>, de <b>rénovations</b>
+        , <b>aménagement</b> de votre <b>intérieur</b> ou bien <b>rénovation</b>. Maisons individuelles, agrandissements,
+        logements collectifs, bâtiments industriels et zone commerciales font partie de nos services. Découvrez-les
+        sur notre site.</span></p>
+    </div>
 </section>
-
-
 
 <footer>
     <img src="images/logo.jpeg">
     <div class="nom-address">
-        David Piquet Architecte<br>
-        112 avenue Emile Labussière<br>
-        87100 Limoges<br>
-        05 55 34 22 15<br>
-        davidpiquet@yahoo.fr
+        <span>
+            David Piquet Architecte<br>
+            112 avenue Emile Labussière<br>
+            87100 Limoges<br>
+            05 55 34 22 15<br>
+            davidpiquet@yahoo.fr
+        </span>
     </div>
     <div class="footer-infos">
         <a href="mentions.html">Mentions légales</a><br>
         <a href="infos.html">Informations complémentaires</a><br>
+        <a href="offres-emplois.html">Offres d'emplois</a><br>
         <a href="access.html">Accés réservé</a>
     </div>
 </footer>
